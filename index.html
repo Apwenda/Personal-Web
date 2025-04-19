@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content=""/>
+        <meta name="author" content="" />
+        <title>Hendrik Legi</title>
+        <!-- Isi Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> 
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!--Link animation-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <style>
+            .navbar {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start; /* Menjaga elemen tetap di kiri */
+                padding: 20px 30px;
+                background: linear-gradient(to right, #1e30f3, #a21caf);
+            }
+            .navbar-left {
+                display: flex;
+                align-items: center;
+            }
+            .navbar-brand {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .navbar {
+                padding-top: 0.5rem !important;
+                padding-bottom: 0.5rem !important;
+              }
+              
+              .nav-link {
+                font-size: 0.9rem; /* atau 14px */
+                padding: 0.5rem 0.75rem;
+                transition: all 0.5s ease;
+              }
+
+              .nav-link:hover {
+                color: #000000!important; /* ungu gelap */
+                text-decoration: underline;
+              }
+              
+              html {
+                scroll-behavior: smooth;
+              }
+              
+        </style>
+        </head>
+        <body class="d-flex flex-column h-100">
+            <main class="flex-shrink-0">
+                <!-- Navigation -->
+                <nav class="navbar">
+                    <div class="navbar-left">
+                        <div class="navbar-brand">
+                            Hendrik Legi
+                        </div>
+                    </div>
+                </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder" id="navbar">
+                            <li class="nav-item">
+                                <a class="nav-link text-white hover:text-[#a21caf] hover:underline transition duration-300" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white hover:text-[#a21caf] hover:underline transition duration-300" href="portofolio.html">Portofolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white hover:text-[#a21caf] hover:underline transition duration-300" href="resume.html">Books & Articles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white hover:text-[#a21caf] hover:underline transition duration-300" href="projects.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white hover:text-[#a21caf] hover:underline transition duration-300" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="py-5 animate__animated animate__fadeInDown">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5">
+                            <!-- Header text content-->
+                            <div class="text-center text-xxl-start animate__animated animate__fadeInLeft animate__delay-1s">
+                                <h1 class="display-3 fw-bolder mb-3 hover-scale">
+                                    <span class="text-gradient d-inline align-items-lg-center">Hendrik Legi M.Th. M.Pd</span>
+                                </h1>
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-2 hover-glow">
+                                    <div class="text-uppercase">Pendidik &middot; penulis &middot; dan pemimpin di dunia pendidikan Kristen</div>
+                                </div>
+                                <div class="fs-3 fw-light text-muted mb-5">"Mendidik, Menulis, dan Memimpin dengan Iman"</div>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder hover-scale" href="#profil">View profile</a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder hover-scale" href="projects.html">Portofolio</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-7">
+                            <!-- Header profile picture-->
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0 animate__animated animate__fadeInRight animate__delay-2s">
+                                <div class="profile bg-gradient-primary-to-secondary hover-scale">
+                                    <img class="profile-img" src="assets/images/profiles.png" alt="..." />
+                                    <!-- Dots SVG tetap -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- About Section-->
+            <section class="bg-light py-5" id="profil">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 class="display-5 fw-bolder mb-4"><span class="text-gradient d-inline">Tentan Saya</span></h2>
+                                <p class="lead fw-bolder mb-3">Nama saya, Hendrik Legi</p>
+                                <p class="text-black">Saya lahir di Tobelo dan saat ini menjabat sebagai Kepala Sekolah SD Triesa Unggul Terpadu Wamena, salah satu Sekolah Penggerak jenjang SD di Kabupaten Jayawijaya, Provinsi Papua Pegunungan. saya memiliki peran penting dalam mengembangkan pendidikan di daerahnya dengan menerapkan Kurikulum Merdeka dan membangun komunitas belajar untuk meningkatkan kualitas pembelajaran.
+                                </p>
+                                    <p>Saya menyelesaikan S1 di STT Arastamar Wamena, kemudian melanjutkan S2 Teologi di STTJC Johanes Calvin Bali serta S2 Pendidikan Kristen di STAK Lentera Bangsa Manado. Saat ini, saya sedang menempuh S3 Manajemen Pendidikan Kristen di IAKN Tarutung.
+                                        Selain sebagai pendidik, ia juga merupakan dosen di Sekolah Tinggi Agama Kristen (STAK) Diaspora Wamena Papua, aktif membina calon pendidik Kristen yang kompeten. Dedikasinya dalam dunia pendidikan tercermin dalam berbagai upaya pengembangan manajemen pendidikan berbasis kearifan lokal, serta dalam mendukung peningkatan literasi dan numerasi bagi siswa di wilayahnya.
+                                        Dalam kehidupan pribadi, Henrik Legi menikah dengan Lidia Samatara dan dikaruniai dua orang anak, Geva dan Qianzy.</p>
+
+                                    <p>Sebagai seorang akademisi dan penulis, saya telah menerbitkan beberapa buku, antara lain: <a href="Koleksi.html">Lihat disini </a><span class="fw-bold">Tujuan</span> saya menulis sebagai bentuk panggilan iman dan dedikasi untuk membagikan pengetahuan, memperkuat karakter, serta mendorong kemajuan pendidikan yang berakar pada nilai-nilai kekristenan dan kearifan lokal.</p>
+                                    <p class="fw-bolder mb-10 mt-5">Social Media</p>
+                                <div class="d-flex justify-content-center fs-2 gap-4">
+                                    <a class="text-gradient" href="#!"><i class="bi bi-facebook"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-tiktok"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+        <!-- Footer-->
+        <footer class="py-4 mt-auto" style="background: linear-gradient(to right,#a21caf,  #1e30f3);">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; 2025. Dikembangkan Oleh Deni Wenda</div></div>
+                    <div class="col-auto">
+                        <a class="small text-light" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small text-light" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small text-light" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
